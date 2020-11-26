@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/*HOME PAGE ONLY*/
+    .title_page {
+        background-color: #2a2a2a;
+        display: flex;
+        flex-direction: column;
+    }
+
 /*Header*/
     /*Title Bar*/
         header {
@@ -53,10 +60,90 @@
         nav ul a {
             text-decoration: none;
             color: lightgray;
-            font-size: 5rem;
+            font-size: 5em;
             margin-right: 70px;
         }
 
 
 
 /*Main*/
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Main Section*/
+        .home {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    /*Home Page*/
+        article {
+            background-color: #F6EEE0;
+            margin: 30px;
+            border: 20px ridge gray;
+        }
+
+        .screenshot {
+            height: 60em;
+            width: 60em;
+            align-self: center;
+        }
+
+        .home {
+            display: flex;
+            flex-direction: column;
+            width: 1200px;
+            
+        }
+
+    /*General*/
+        h2 {
+            font: 5em 'Goldman', Inconsolata, monospace;
+            margin: 20px ;
+        }
+
+        article p {
+            font-size: 3em;
+            margin: 15px;
+        }
+
+        article a {
+            align-self: center;
+            background-color: #2a2a2a;
+            color: lightgray;
+            text-decoration: none;
+            width: 50%;
+            font-size: 4em;
+            text-align: center;
+            margin-bottom: 10px;
+            border: 10px solid white;
+        }
+
+/*Footer*/
+    /*General*/
+        footer {
+            justify-self: flex-end;
+            display: flex;
+            background-color: darkslategray;
+        }
+
+    /*Nav*/
+        footer nav ul {
+            flex-direction: column;
+            font-size: .8em;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer_link {
+            display: flex;
+            font-size: 3em;
+            color: white;
+        }
