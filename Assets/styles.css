@@ -72,6 +72,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     /*Main Section*/
         .home {
             display: flex;
@@ -87,6 +88,13 @@
             border: 20px ridge gray;
         }
 
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+        }
+
         .screenshot {
             height: 60em;
             width: 60em;
@@ -97,7 +105,12 @@
             display: flex;
             flex-direction: column;
             width: 1200px;
-            
+        }
+
+        .profile {
+            width: 75%; 
+            margin: 30px;
+            border: 10px solid white;
         }
 
     /*General*/
@@ -133,8 +146,10 @@
 
     /*Nav*/
         footer nav ul {
+            height: 100%;
             flex-direction: column;
             font-size: .8em;
+            justify-content: space-around;
         }
 
         .contact {
@@ -142,8 +157,15 @@
             flex-direction: column;
         }
 
+        .contact a img {
+            width: 140px;
+            margin: 15px;
+        }
+
         .footer_link {
             display: flex;
             font-size: 3em;
             color: white;
         }
+
+        
