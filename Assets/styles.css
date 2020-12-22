@@ -25,7 +25,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
 .title_nav {
@@ -37,12 +38,12 @@ header {
 
 h1 {
   color: white;
-  font: 9rem "Goldman", Inconsolata, monospace;
+  font: 3em "Goldman", Inconsolata, monospace;
 }
 
 .logo-phone {
-  width: 25em;
-  height: 25em;
+  width: 7em;
+  height: 7em;
 }
 
 .large {
@@ -51,8 +52,8 @@ h1 {
 
 /*Navigation*/
 nav {
-  width: 65%;
-  margin-top: 20px;
+  width: 50%;
+  margin-top: 10px;
   margin-left: 15px;
 }
 
@@ -66,8 +67,8 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: lightgray;
-  font-size: 5em;
-  margin-right: 70px;
+  font-size: 1.5em;
+  margin-right: 20px;
 }
 
 /*Main*/
@@ -83,6 +84,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 375px;
 }
 
 /*Home Page*/
@@ -94,8 +96,8 @@ figure {
 }
 
 .screenshot {
-  height: 60em;
-  width: 60em;
+  height: 15em;
+  width: 15em;
   align-self: center;
 }
 
@@ -138,24 +140,23 @@ article {
   border: 20px ridge gray;
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  width: 20px;
 }
 
 h2 {
-  font: 5em "Goldman", Inconsolata, monospace;
+  font: 1.7em "Goldman", Inconsolata, monospace;
   margin: 20px;
   text-align: left;
 }
 
 main p {
-  width: 75%;
-  font-size: 3em;
+  width: 75%; 
+  font-size: 1em;
   margin-bottom: 50px;
 }
 
 article p {
-  width: 95%;
-  font-size: 3em;
+  font-size: 1em;
   margin: 15px;
 }
 
@@ -164,8 +165,8 @@ article a {
   background-color: #2a2a2a;
   color: lightgray;
   text-decoration: none;
-  width: 50%;
-  font-size: 4em;
+  width: 80px;
+  font-size: 2em;
   text-align: center;
   margin-bottom: 10px;
   border: 10px solid white;
