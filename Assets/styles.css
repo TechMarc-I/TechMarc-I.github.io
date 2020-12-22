@@ -84,7 +84,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
+  width: 450px;
 }
 
 /*Home Page*/
@@ -99,12 +99,6 @@ figure {
   height: 15em;
   width: 15em;
   align-self: center;
-}
-
-.home {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
 }
 
 .profile {
@@ -137,7 +131,7 @@ figure {
 article {
   background-color: #f6eee0;
   margin: 30px;
-  border: 20px ridge gray;
+  border: 10px ridge gray;
   display: flex;
   flex-direction: column;
   width: 20px;
@@ -156,8 +150,9 @@ main p {
 }
 
 article p {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 15px;
+  width: 90%;
 }
 
 article a {
@@ -165,8 +160,8 @@ article a {
   background-color: #2a2a2a;
   color: lightgray;
   text-decoration: none;
-  width: 80px;
-  font-size: 2em;
+  width: 300px;
+  font-size: 1.9em;
   text-align: center;
   margin-bottom: 10px;
   border: 10px solid white;
@@ -191,6 +186,11 @@ address a > img {
   border: 20px ridge lightgray;
 }
 
+.home-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*Footer*/
 /*General*/
 
@@ -203,10 +203,15 @@ footer {
 
 /*Nav*/
 footer nav ul {
-  height: 100%;
+  height: 90%;
   flex-direction: column;
-  font-size: 0.8em;
+  font-size: 1em;
   justify-content: space-around;
+}
+
+footer p {
+  padding-top: 14px;
+  margin-right: 7px;
 }
 
 .contact {
@@ -215,12 +220,12 @@ footer nav ul {
 }
 
 .contact a img {
-  width: 140px;
+  width: 30px;
   margin: 15px;
 }
 
 .footer_link {
   display: flex;
-  font-size: 3em;
+  font-size: 1em;
   color: white;
 }
